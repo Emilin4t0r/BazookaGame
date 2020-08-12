@@ -14,7 +14,7 @@ public class PlayerCharacter : Player {
 	void Awake() {
 		if (pt == PlayerType.Light) {
 			moveSpeed = 15;
-			jumpForce = 25;
+			jumpForce = 30;
 			fallSpeed = 10;
 			shootForce = 30;
 			hp = 3;
@@ -28,7 +28,7 @@ public class PlayerCharacter : Player {
 		}
 		if (pt == PlayerType.Heavy) {
 			moveSpeed = 12.5f;
-			jumpForce = 20;
+			jumpForce = 25;
 			fallSpeed = 10;
 			shootForce = 40;
 			hp = 4;

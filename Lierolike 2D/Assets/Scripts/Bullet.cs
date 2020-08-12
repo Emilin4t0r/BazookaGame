@@ -13,6 +13,6 @@ public class Bullet : MonoBehaviour {
 	void Blowup() {
 		GameObject expl = Instantiate(explosion, transform.position, transform.rotation);
 		Destroy(gameObject);
-		Destroy(expl, 1);
+		Destroy(expl, 0.66f);
 	}
 }
